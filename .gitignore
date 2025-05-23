@@ -1,0 +1,20 @@
+# Entorno virtual de Python
+venv/
+__pycache__/
+*.pyc
+
+# Archivos de logs
+*.log
+
+# Clave secreta que no debe subirse al repositorio
+secret.key
+
+# Archivos de base de datos locales (si existen)
+*.sqlite3
+
+# Configuraciones locales o variables de entorno
+*.env
+
+# Carpetas de sistema
+.DS_Store
+Thumbs.db
