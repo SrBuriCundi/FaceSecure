@@ -45,9 +45,9 @@ FaceSecure es una aplicación desarrollada en Python que permite autenticar usua
 
 2. Crear y activar un entorno virtual:
 python -m venv venv
-# Windows PowerShell
+- Windows PowerShell
 .\venv\Scripts\Activate.ps1
-# Linux/macOS
+- Linux/macOS
 source venv/bin/activate
 
 3. Instalar dependencias:
@@ -56,6 +56,7 @@ pip install -r requirements.txt
 4. Configurar la base de datos MySQL:
 - Crear la base de datos face_secure.
 - Crear las tablas users y access_logs con los siguientes campos:
+
     CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     numero_identificacion VARCHAR(50),
